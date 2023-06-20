@@ -6,7 +6,7 @@ const Button = function (props) {
   };
 
   return (
-    <button class={styles.btn} onClick={close}>
+    <button className={styles.btn} onClick={close}>
       {props.children}
     </button>
   );
