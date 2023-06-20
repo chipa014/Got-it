@@ -1,0 +1,30 @@
+:root {
+  --green: #4e9f3d;
+  --dark-green: #1e5128;
+  --black: #191a19;
+  --white: #d8e9a8;
+}
+
+.btn {
+  font-size: 90px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background-color: var(--green);
+  color: var(--black);
+  height: 150px;
+  width: 30%;
+  border-radius: 50px;
+
+  border: 5px solid var(--dark-green);
+
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: var(--dark-green);
+  color: var(--white);
+}
